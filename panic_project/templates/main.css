@@ -126,12 +126,18 @@ th {
 
 .right-image {
     float: right;
-    width: 300px; /* 画像サイズを調整 */
+    width: 200px; /* 画像サイズを調整 */
     margin-left: 20px; /* テキストとの余白 */
 }
 .word-wrap {
     word-wrap: break-word; /* 長い単語を折り返す */
     overflow-wrap: break-word;
+}
+
+.train-image{
+    float: right;
+    width: 400px; /* 画像サイズを調整 */
+    margin-left: 20px; /* テキストとの余白 */
 }
 
 
