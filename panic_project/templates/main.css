@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #0078D7;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 1rem 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 250px;
+    padding: 2rem;
+}
+
+
+footer {
+    background-color: transparent; /* 背景を透明にする */
+}
+
+
+h1, h2, h3 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #0078D7;
+    color: white;
+}
+
+.content-section {
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-section p {
+    line-height: 1.6;
+}
+
+/* スマホ対応のスタイル */
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    main {
+        margin-left: 0;
+        padding: 1rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .content-section {
+        padding: 1rem;
+    }
+}
+
+.right-image {
+    float: right;
+    width: 300px; /* 画像サイズを調整 */
+    margin-left: 20px; /* テキストとの余白 */
+}
+.word-wrap {
+    word-wrap: break-word; /* 長い単語を折り返す */
+    overflow-wrap: break-word;
+}
+
+
+.twitter-link {
+    background: rgba(51, 51, 51, 0.8); /* 半透明の黒 */
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); /* 画面中央に配置 */
+    height: auto;
+    width: 60px; /* 幅をスリムに */
+    text-align: center;
+    border-radius: 0 10px 10px 0; /* 右端を丸く */
+    transition: all 0.3s ease-in-out;
+}
+
+.twitter-link i {
+    font-size: 2rem; /* アイコンを大きく */
+}
+
+.twitter-link:hover {
+    background: rgba(29, 161, 242, 0.9); /* Twitterブルーに変化 */
+    width: 200px; /* ホバーで幅を広げる */
+}
+
+.twitter-link:hover i {
+    transform: scale(1.2); /* アイコンを拡大 */
+    transition: 0.3s;
+}
+    

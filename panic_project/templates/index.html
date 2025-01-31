@@ -1,273 +1,45 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Section11 Physical_Cue</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f9f9f9;
-            }
-    
-            header {
-                background-color: #0078D7;
-                color: white;
-                padding: 1rem 2rem;
-                text-align: center;
-            }
-    
-            nav {
-                background-color: #333;
-                color: white;
-                padding: 1rem;
-                position: fixed;
-                top: 0;
-                left: 0;
-                height: 100%;
-                width: 200px;
-            }
-    
-            nav ul {
-                list-style: none;
-                padding: 0;
-            }
-    
-            nav ul li {
-                margin: 1rem 0;
-            }
-    
-            nav ul li a {
-                color: white;
-                text-decoration: none;
-            }
-    
-            main {
-                margin-left: 220px;
-                padding: 2rem;
-            }
-    
-            footer {
-                background-color: #333;
-                color: white;
-                text-align: center;
-                padding: 1rem;
-                position: relative;
-                bottom: 0;
-                width: 100%;
-            }
-    
-            h1, h2, h3 {
-                color: #333;
-            }
-    
-            table {
-                border-collapse: collapse;
-                width: 100%;
-                margin-bottom: 2rem;
-                background-color: white;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
-    
-            th, td {
-                border: 1px solid #ddd;
-                padding: 8px;
-                text-align: center;
-            }
-    
-            th {
-                background-color: #0078D7;
-                color: white;
-            }
-    
-            .content-section {
-                margin-bottom: 2rem;
-                background-color: white;
-                padding: 1.5rem;
-                border-radius: 8px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
-    
-            .content-section p {
-                line-height: 1.6;
-            }
-    
-            /* スマホ対応のスタイル */
-            @media (max-width: 768px) {
-                nav {
-                    position: relative;
-                    width: 100%;
-                    height: auto;
-                    padding: 1rem;
-                }
-    
-                main {
-                    margin-left: 0;
-                    padding: 1rem;
-                }
-    
-                nav ul {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-    
-                nav ul li {
-                    margin: 0.5rem;
-                }
-    
-                nav ul li a {
-                    font-size: 14px;
-                }
-    
-                table {
-                    font-size: 14px;
-                }
-    
-                th, td {
-                    padding: 6px;
-                }
-    
-                .content-section {
-                    padding: 1rem;
-                }
-            }
-        </style>
-    </head>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical_Cue</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
 <body>
+
     <header>
-        <h1>身体手掛かりと健康面の懸念</h1>
+        <h1>不安障害・強迫性障害のためのエクスポージャー</h1>
     </header>
 
-    <nav>
+    <nav class="tob">
         <ul>
-            <li><a href="#clinical-picture">臨床像</a></li>
-            <li><a href="#conceptualization">概念化</a></li>
-            <li><a href="#exposure">エクスポージャー</a></li>
-            <li><a href="#treatment-principle">治療原理</a></li>
-            <li><a href="#treatment-plan">治療方針</a></li>
+            <li><a href="./Physical_Cues.html">1:身体的な不快感</a></li>
         </ul>
     </nav>
 
     <main>
-        <section id="clinical-picture" class="content-section">
-            <h2>臨床像</h2>
-            <h3>身体手掛かり</h3>
-            <p>交感神経系の覚醒、つまり動悸や息切れを心臓発作や窒息、失神などの兆候ととらえる。</p>
-            <p>パニック障害の場合、パニック発作を脳卒中などの医学的な破局を心配する。</p>
-        </section>
+        <h1>目次</h1>
+        <div class="container">
+            <a href="Physical_Cues.html" class="btn">1 : 身体的な不快感に対するエクスポージャー(曝露療法)</a>
+            <img src="../image/heart_beat.jpg" alt="説明" class="right-image">
+        </div>
+        <h3>対象読者</h3>
+        <h4 class="word-wrap">
+            呼吸困難感や心臓のドキドキなど交感神経系の興奮にかかわる不快感から失神や心臓発作を予期し恐れている方
+        </h4>
 
-        <section id="conceptualization" class="content-section">
-            <h2>概念化</h2>
-            <p> 
-                恐れている身体的な兆候や感覚（めまい、息切れ、動悸、発汗、疲労感、頭痛）は普遍的なものであり、一般に良性である。
-                逆にいえば、恐れている健康上の破局を防ぐために大きな注意を払うために身体兆候に対して敏感になり安全行動を取りやすい。
-                さらに、身体感覚はいつでもどこでも体験されやすいためそれを受け入れることは非常に重要な意味を持つ。なぜなら、身体感覚を完全に排除しようとしたり
-                あらゆる兆候に対して説明を求めても際限のないものとなるからである。
-            </p>
-        </section>
+        <h3>対象疾患</h3>
+        <h4>パニック症・限局性恐怖症</h4>
+    </main>
 
-        <section id="exposure" class="content-section">
-            <h2>エクスポージャー中に学ぶべきこと</h2>
-            <p>① 身体的手掛かりとそれに関連する不安は耐えられるもの。</p>
-            <p>② 医学的破局につながる可能性は低い。</p>
-            <p>③ 健康維持や不安に耐えるための安全行動は不要。</p>
-        </section>
+    <footer>
+        <p>© 2025 Physical_Cue</p>
+        <a href="https://x.com/INTJ1123" target="_blank" class="twitter-link">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </footer>
 
-        <section id="treatment-principle" class="content-section">
-            <h2>治療原理</h2>
-            <p>不安の維持要因は破局的な解釈に基づく安全行動</p>
-            <p>安全行動を取らないとどうなるかを知ることができないという点が問題を維持している</p>
-            <p>身体感覚や不確実さ不安に対して安全行動は必要がなく、恐れる結果が起こる可能性はそれほど高くない</p>
-            <p>パニック発作などの身体感覚は短期的でどうにかなり健康や説明できない症状もどうにかなる</p>
-
-        </section>
-
-        <section id="treatment-plan" class="content-section">
-            <h2>治療方針</h2>
-            <h3>①機能アセスメント</h3>
-            <h4>
-                A 恐れている身体感覚を特定する
-                <p>ex, 心臓のドキドキ、息が吸いにくい感じ、体が冷たくなる感じ、眠気、胸が苦しい感じ、めまい、吸い込まれる感じ、意識を失う感じ、頭が真っ白になる感じ</p>
-            </h4>
-            <h4>
-                B 恐れている身体感覚が起きそうな状況や行動を特定する（やらない回避の特定）
-                <p>ex, カフェイン、アルコール、ランニング、エレベーター、会議室、発表の場、飲み会、電車、新幹線、トイレ、お風呂</p>
-            </h4>
-            <h4>
-                C 恐れている身体感覚によって予想される破局を回避するためにとる安全行動を特定する
-                <p>ex, 呼吸を整える、ツボを押す、意識をずらそうとする、その場から逃げ出す、健康状態のモニタリング、脈をとる、検索をする、安心する言葉</p>
-            </h4>
-
-            <h3>②練習計画を立て実行</h3>
-            <h4>
-                身体手掛かりを恐れる場合、最も有効なエクスポージャーは内部感覚エクスポージャーと状況エクスポージャーである。
-            </h4>
-            <h4>内部感覚エクスポージャー</h4>
-            <table>
-                <tr>
-                    <th>課題</th>
-                    <th>内容・継続時間</th>
-                    <th>誘発される身体感覚</th>
-                </tr>
-                <tr>
-                    <td>頭を横に振る</td>
-                    <td>30秒間</td>
-                    <td>めまい・頭のふらつき</td>
-                </tr>
-                <tr>
-                    <td>頭を足の間に入れる</td>
-                    <td>30秒間</td>
-                    <td>立ち眩み・めまい・頭のふらつき</td>
-                </tr>
-                <tr>
-                    <td>速いピッチで走る</td>
-                    <td>60秒間</td>
-                    <td>動悸・息切れ・発汗・胸部の痛み</td>
-                </tr>
-                <tr>
-                    <td>素早く唾を飲み込む</td>
-                    <td>できるだけ早く10回</td>
-                    <td>のどのつまり・息苦しさ</td>
-                </tr>
-                <tr>
-                    <td>回転</td>
-                    <td>60秒間</td>
-                    <td>めまい・ふらつき・離人感・現実感消失</td>
-                </tr>
-                <tr>
-                    <td>腕立て伏せ</td>
-                    <td>60秒間</td>
-                    <td>筋肉のこわばり・胸部痛・発汗</td>
-                </tr>
-                <tr>
-                    <td>過呼吸</td>
-                    <td>60秒間</td>
-                    <td>めまい・動悸・息切れ・発汗・胸部の痛み・しびれ・ふらつき</td>
-                </tr>
-            </table>
-        </section>
-
-        <section id="situation-exposure" class="content-section">
-            <h4>状況エクスポージャー</h4>
-            <p>内部感覚エクスポージャーを実施したのちに効果的なのが状況エクスポージャーである。</p>
-            <h5>※慣習的に不安階層表を使って行われる場合もあるが、実際には一番強い刺激から取り組んでも問題はない。むしろランダム性が高いほうが効果が高い</h5>
-            <p>状況エクスポージャーは、パニック発作や心臓発作が起こると予想される状況に安全行動なしで曝露する方法である。</p>
-            <p>状況エクスポージャーを最大限効果を発揮させるための手順を以下に示す。</p>
-            <h4>A 回避している状況に取り組んだ場合どのような結果が予想されるかはっきりさせておく</h4>
-            <h5>ex, 電車に乗り込んだら意識を失って乗客に奇異の目をむけられ恥ずかしいりさせて思いをするだろう</h5>
-            <h4>B 回避している状況に取り組み安全行動なしでどのような症状が出るか本当に耐えられないものかを検証する</h4>
-            <h5>ex, 心臓がドキドキし、体が冷たい感じがする、今にも意識を失いそうだ</h5>
-            <h4>C 反応妨害をする</h4>
-            <h5>ex, 意識を失うなら失ってみる、どうにかなってみる、不安に身を任せる</h5>
-            <h4>D 実際どうだったかを行う前と行った後で照らし合わせる。</h4>
-            <h4>E カフェインや過呼吸など内部感覚エクスポージャーを組み合わせてA~Dの操作を繰り返し耐えられることを学ぶ</h4>
-            <h5>ex, カフェインで今にもパニック発作が起きそうな状態で電車に乗る</h5>
-    </body>
-        <footer>
-
-        </footer>
-    </body>
+</body>
 </html>
