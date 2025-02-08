@@ -20,7 +20,7 @@ nav {
     top: 0;
     left: 0;
     height: 100%;
-    width: 200px;
+    width: 220px;
 }
 
 nav ul {
@@ -140,6 +140,12 @@ th {
     margin-left: 20px; /* テキストとの余白 */
 }
 
+.saiya-image{
+    float: right;
+    width: 250px; /* 画像サイズを調整 */
+    margin-left: 20px; /* テキストとの余白 */
+}
+
 
 .twitter-link {
     background: rgba(51, 51, 51, 0.8); /* 半透明の黒 */
@@ -148,7 +154,7 @@ th {
     position: fixed;
     top: 50%;
     left: 0;
-    transform: translateY(-50%); /* 画面中央に配置 */
+    transform: translateY(300%); /* 画面中央に配置 */
     height: auto;
     width: 60px; /* 幅をスリムに */
     text-align: center;
@@ -170,3 +176,9 @@ th {
     transition: 0.3s;
 }
     
+#outer.content-section{
+    padding:0rem
+}
+#inner.content-section{
+    padding:0rem
+}
