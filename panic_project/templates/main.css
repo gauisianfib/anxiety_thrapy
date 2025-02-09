@@ -83,8 +83,26 @@ th {
     line-height: 1.6;
 }
 
-/* スマホ対応のスタイル */
+    /* スマホ向けのスタイル */
 @media (max-width: 768px) {
+    .content-section {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    textarea {
+        height: 150px;
+        font-size: 0.9em;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
     nav {
         position: relative;
         width: 100%;
@@ -122,7 +140,7 @@ th {
     .content-section {
         padding: 1rem;
     }
-}
+    }
 
 .right-image {
     float: right;
@@ -145,7 +163,6 @@ th {
     width: 250px; /* 画像サイズを調整 */
     margin-left: 20px; /* テキストとの余白 */
 }
-
 
 .twitter-link {
     background: rgba(51, 51, 51, 0.8); /* 半透明の黒 */
@@ -182,3 +199,6 @@ th {
 #inner.content-section{
     padding:0rem
 }
+
+
+
